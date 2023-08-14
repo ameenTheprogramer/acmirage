@@ -1,0 +1,134 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body{
+  margin: 0;
+ font-family:  Portrait;
+ overflow-x: hidden;
+}
+*{
+ font-family:  Portrait;
+
+}
+.container{
+  background: url(img_n_bgies/bg1.jpg);
+  background-size: 1366px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.container2{
+  background: url(./img_n_bgies/bg2.png) 0 0 repeat,linear-gradient(180deg,#c2ae99 22.92%,#b96742 47.4%,#0e1e2b 63.02%,#142b3d);
+    /* max-width: 100vw; */
+    width: 100%;
+    height: 880vh;
+    /* overflow: hidden; */
+}
+.notalink{
+  text-decoration: none;
+}
+
+::-webkit-scrollbar{
+  background: #09131b;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #c6c9cb;
+  border-radius: 10px;
+
+    
+}
+
+.border{
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  top: -131px;
+  background: linear-gradient( transparent, #000000);
+  z-index: 10;
+}
+.border2{
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  background: linear-gradient(  #000000,transparent);
+  z-index: 10;
+  top: -131px;
+
+}
+
+
+
+
+
+
+.trailar {
+  display: inline-block;
+  overflow: hidden;
+}
+
+video{
+  transition: transform 0.3s; 
+
+}
+img {
+  transition: transform 0.3s; 
+}
+
+video:hover{
+
+  transform: scale(1.2); 
+
+}
+img:hover {
+  transform: scale(1.2); 
+}
+
+
+.needscroll{
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+.needscroll::-webkit-scrollbar{
+  display: none;
+}
+p{
+  font-family: sans-serif;
+}

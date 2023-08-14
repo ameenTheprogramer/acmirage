@@ -1,0 +1,50 @@
+
+
+.ac,
+.mirage{
+    width: 400px;
+    position: relative;
+    
+}
+.ac{
+    top: 240px;
+    left: 125px;
+
+}
+.mirage{
+    top: 300px;
+    left: -268px;
+}
+
+@keyframes fromleft {
+    0%{
+        opacity: 0;
+        left: -43px;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 125px;
+    }
+    
+}
+@keyframes fromright {
+    0%{
+        opacity: 0;
+        left: -100px;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: -268px;
+    }
+    
+}
+
+
+
+

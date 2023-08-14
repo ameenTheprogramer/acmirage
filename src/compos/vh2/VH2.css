@@ -1,0 +1,93 @@
+
+
+.p1{
+    width: 100%;
+
+}
+.p1div{
+    position: relative;
+    left: 150px;
+    top: -300px;
+    width: 860px;
+    mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1360 615' preserveAspectRatio='none'%3E%3Cpath d='M1335.2 0H24.8c0 13.7-11.1 24.8-24.8 24.8V590.2c13.7 0 24.8 11.1 24.8 24.8h1310.4c0-13.7 11.1-24.8 24.8-24.8V24.8c-13.7 0-24.8-11.1-24.8-24.8z'/%3E%3C/svg%3E");
+
+}
+.p1div:after{
+    border-image-slice: 40 40 40 40;
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4BAMAAADLSivhAAAAJFBMVEVHcEz///////////////////////////////////////////8Uel1nAAAADHRSTlMA0FBAwO4UpTCIc2TPMYKpAAAA70lEQVRYw+3ZKw/CQBAE4ElDWh4Ogi8oLAKPoHiShhIwFdTXVOAISQUOBxKDx/D/sA10c0vWAJl17d53t2fnANYPlj9UVCpgL545KwoF3Mnd0wV3odE6ubG4phG6sTcVGlnqxv5SaJzdFtgJm640eFI/XpBrsLDqprgy4K/r/rZVUwPltWbHYq/DzeR9wsdcZ4Ht5uXYQ9HVWmCQjKqH9+OL3gLHaFH56n1CAWBMTExMTExMTExMTExMTExMTPwv2BQsmSItWMI0GGM8U4Boiy5toakuri2F+SxBsS2iNoXjplje9CBgeoowPYKwvrqeb75VOVBLwh0AAAAASUVORK5CYII=);
+    border-image-width: 40px 40px 40px 40px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-style: solid;
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    margin-left: 0;
+    pointer-events: none;
+    width: calc(100% - 15px);
+    height: calc(100% - 17px);
+}
+.t1{
+    margin-top: 300px;
+}
+.whitediv,
+.superdiv{
+    background: #fff;
+    /* mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1360 615' preserveAspectRatio='none'%3E%3Cpath d='M1335.2 0H24.8c0 13.7-11.1 24.8-24.8 24.8V590.2c13.7 0 24.8 11.1 24.8 24.8h1310.4c0-13.7 11.1-24.8 24.8-24.8V24.8c-13.7 0-24.8-11.1-24.8-24.8z'/%3E%3C/svg%3E"); */
+    width: 360px;
+    height: 561px;
+    position: relative;
+    float: right;
+    top: calc(-810px + 70px);
+    left: -45px;
+    border-radius: 10px;
+}
+.superdiv{
+    border: 1px solid #ffffff;
+    background: transparent;
+    width: 380px;
+    height: 581px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.whitediv{
+    top: 0px;
+    left: 0;
+    text-align: center;
+}
+
+.s2nd{
+    margin-top: 400px;
+}
+.seth2{
+    position: relative;
+    top: 20px;
+    margin-top: 50px;
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+
+.l1{
+    left: -824px;
+}
+.r1{
+    left: 450px;
+
+}
+
+.s2ndp{
+    top: 70px;
+    width: 330px;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+.width780px{
+    width: 780px;
+}

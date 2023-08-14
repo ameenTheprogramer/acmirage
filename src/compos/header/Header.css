@@ -1,0 +1,79 @@
+
+
+.header{
+    width: 100%;
+    height: 13vh;
+    background: #112635;
+}
+.logo1{
+    width: 175px;
+    margin: 6px;
+}
+.header:after{
+    background: #fff;
+    display: block;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 11.7vh;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+}
+.owbtn{
+    width: 121px;
+    height: 20px;
+    position: absolute;
+    float: right;
+    right: 75px;
+    filter: grayscale(0);
+    top: 30px;
+    transition: 0.2s ease-out;
+
+    
+}
+.owbtn:before{
+    background: url(../../img_n_bgies/before.png);
+    background-size: 500px 45px;
+    content: "";
+    display: block;
+    position: absolute;
+    height: 57px;
+    width: 100px;
+    left: -45px;
+    background-repeat: no-repeat;
+    top: -13px;
+    z-index: 1;
+
+    transition: opacity .15s ease;
+    
+}
+.owbtn:after{
+    background: url(../../img_n_bgies/after.png);
+    background-repeat: no-repeat;
+    background-size: 109px 45px;
+    content: "";
+    display: block;
+    position: absolute;
+    height: 58px;
+    width: 116px;
+    left: 40px;
+    top: -13px;
+    z-index: 1;
+
+    transition: opacity .15s ease;
+
+
+
+}
+.owbtn:hover{  
+    filter: grayscale(100);
+    
+    
+}
+.span1{
+    z-index: 2;
+    color: #fff;
+    position: absolute;
+}
+

@@ -1,0 +1,67 @@
+.trailarloop {
+    width: 703px;
+    height: 400px;
+    position: relative;
+
+}
+
+.trailar {
+    display: flex;
+    left: 150px;
+    width: 703px;
+    height: 400px;
+    position: relative;
+    /* -webkit-mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1360 615' preserveAspectRatio='none'%3E%3Cpath d='M1335.2 0H24.8c0 13.7-11.1 24.8-24.8 24.8V590.2c13.7 0 24.8 11.1 24.8 24.8h1310.4c0-13.7 11.1-24.8 24.8-24.8V24.8c-13.7 0-24.8-11.1-24.8-24.8z'/%3E%3C/svg%3E"); */
+    mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1360 615' preserveAspectRatio='none'%3E%3Cpath d='M1335.2 0H24.8c0 13.7-11.1 24.8-24.8 24.8V590.2c13.7 0 24.8 11.1 24.8 24.8h1310.4c0-13.7 11.1-24.8 24.8-24.8V24.8c-13.7 0-24.8-11.1-24.8-24.8z'/%3E%3C/svg%3E");
+}
+
+.trailar:after {
+    /* display: block;
+    content: "";
+    background: #fff;
+    /* height: 1px; */
+    /* width: 100%;
+    position: relative;
+    top: -16px;
+    
+    border-image-width:  40px ; */
+    border-image-slice: 40 40 40 40;
+    border-image-source: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4BAMAAADLSivhAAAAJFBMVEVHcEz///////////////////////////////////////////8Uel1nAAAADHRSTlMA0FBAwO4UpTCIc2TPMYKpAAAA70lEQVRYw+3ZKw/CQBAE4ElDWh4Ogi8oLAKPoHiShhIwFdTXVOAISQUOBxKDx/D/sA10c0vWAJl17d53t2fnANYPlj9UVCpgL545KwoF3Mnd0wV3odE6ubG4phG6sTcVGlnqxv5SaJzdFtgJm640eFI/XpBrsLDqprgy4K/r/rZVUwPltWbHYq/DzeR9wsdcZ4Ht5uXYQ9HVWmCQjKqH9+OL3gLHaFH56n1CAWBMTExMTExMTExMTExMTExMTPwv2BQsmSItWMI0GGM8U4Boiy5toakuri2F+SxBsS2iNoXjplje9CBgeoowPYKwvrqeb75VOVBLwh0AAAAASUVORK5CYII=);
+    border-image-width: 40px 40px 40px 40px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-style: solid;
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    margin-left: 0;
+    pointer-events: none;
+    width: calc(100% - 15px);
+    height: calc(100% - 17px);
+}
+
+.aboutthegame {
+    color: #000000;
+    position: relative;
+    /* background-color: #fff; */
+
+    left: 918px;
+    width: auto;
+    height: auto;
+    /* z-index: 10; */
+    top: -468px;
+    font-size: 25px;
+
+}
+.setp{
+    /* font-weight: 600; */
+    font-size: 17px;
+    width: 346px;
+    position: relative;
+    left: 15px;
+    top: -65px;
+    line-height: 21px;
+}

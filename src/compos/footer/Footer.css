@@ -1,0 +1,29 @@
+
+.footer{
+    background: url(../../img_n_bgies/bg3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+}
+.trans{
+    background: linear-gradient(transparent, #4a301f);
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: -10vh;
+}
+.t2{
+    background: linear-gradient(#4a301f, transparent);
+
+
+
+}
+
+.p2{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 70%;
+    left: 48%;
+
+}
