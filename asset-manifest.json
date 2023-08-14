@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/acmirage/static/css/main.381f2d43.css",
+    "main.js": "/acmirage/static/js/main.e337a981.js",
+    "static/media/looping_video.mp4": "/acmirage/static/media/looping_video.a9ab93ce069bdd944ddc.mp4",
+    "static/media/bg3.jpg": "/acmirage/static/media/bg3.73a6bfb15540ed54da95.jpg",
+    "static/media/bg1.jpg": "/acmirage/static/media/bg1.3e5d9ab7f6295fe3a3f0.jpg",
+    "static/media/bg2.png": "/acmirage/static/media/bg2.aabb54ec5162f5da202f.png",
+    "static/media/ac.png": "/acmirage/static/media/ac.28230d7963e54d842731.png",
+    "static/media/before.png": "/acmirage/static/media/before.b6fd6b22e37e0cb89277.png",
+    "index.html": "/acmirage/index.html",
+    "main.381f2d43.css.map": "/acmirage/static/css/main.381f2d43.css.map",
+    "main.e337a981.js.map": "/acmirage/static/js/main.e337a981.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.381f2d43.css",
+    "static/js/main.e337a981.js"
+  ]
+}
